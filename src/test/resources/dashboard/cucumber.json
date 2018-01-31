@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test GET",
+        "description": "",
+        "id": "to-test-the-employee-getter;test-get;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 112032064,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "scenario \"Get an Employee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Get an Employee",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinitions.scenario(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107382,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the id of employee is \"E01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E01",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.the_id_of_employee_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9727739108,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the status code of \"200\" and \"get.json\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "get.json",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.the_status_code_of_and_are_returned(int,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the Employee getter",
+    "description": "",
+    "id": "to-test-the-employee-getter",
+    "keyword": "Feature",
+    "uri": "src/test/java/featurefiles/Get.feature"
+  }
+]
